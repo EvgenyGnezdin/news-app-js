@@ -1,0 +1,52 @@
+.news__list {
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 280px));
+    column-gap: 53px;
+    row-gap: 70px;
+    .news__item {
+        list-style: none;
+        background-color: white;
+        max-height: 600px;
+        border-radius: 8px;
+        .news__content {
+            position: relative;
+            .news__img {
+                border-radius: 5px;
+                width: 100%;
+                height: 230px;
+            }
+            .news__title {
+                border-radius: 5px;
+                padding: 5px 5px 5px 25px;
+                width: 70%;
+                font-size: 18px;
+                font-weight: 500;
+                top: 20px;
+                background-color: rgb(30, 29, 29);
+                color: white;
+                position: absolute;
+            }
+            .news__content-text {
+                margin-top: 23px;
+                .news__description {
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                .news__url {
+                    border-radius: 5px;
+                    width: 140px;
+                    display: block;
+                    margin-top: 35px;
+                    padding: 10px;
+                    background-color: rgb(30, 29, 29);
+                    font-size: 14px;
+                    color: white;
+                    text-decoration: none;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+

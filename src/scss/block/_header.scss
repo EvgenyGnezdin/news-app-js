@@ -1,0 +1,50 @@
+.news {
+    
+    .news__header {
+        display: flex;
+        flex-direction: column ;
+        justify-content: end;
+        align-items: center;
+        background-image: url("https://catherineasquithgallery.com/uploads/posts/2023-01/1674319635_catherineasquithgallery-com-p-gorod-fon-serii-foto-13.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 45vh;
+        .news__header-title {
+            font-size: 50px;
+            font-weight: 700;
+            margin-bottom: 120px;
+            color: rgb(30, 29, 29);
+        }
+
+        .news__search {
+            width: 700px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 100px;
+
+            .news__search-input {
+                background-color: rgb(30, 29, 29);
+                color: white;
+                width: 700px;
+                border-radius: 15px;
+                outline: none;
+                border: none;
+                height: 24px;
+                font-size: 18px;
+                padding: 10px;
+            }
+            .news__search-btn {
+                padding: 10px;
+                width: 130px;
+                border-radius: 20px;
+                border: none;
+                background-color:rgb(30, 29, 29);
+                color: white;
+                font-size: 14px;
+                font-weight: 700;
+            }
+        }
+    }
+    
+}

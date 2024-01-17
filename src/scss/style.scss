@@ -1,0 +1,26 @@
+@import url('../fonts/fonts.scss');
+@import url('../scss/block/_header.scss');
+@import url('../scss/block/_list.scss');
+@import url('../scss/block/_spinner.scss');
+@import url('../scss/block/_media.scss');
+
+body, ul, p, li, h3{
+  font-family: 'Roboto' sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1280px;
+  height: 45vh;
+  margin: 0 auto;
+}
+.news__valid {
+  font-size: 30px;
+  font-weight: 700;
+  width: 1000px;
+}
+
+
+

@@ -1,0 +1,152 @@
+@media screen and (max-width: 1280px){
+    .container {
+        max-width: 920px;
+        .news__list {
+            padding: 30px;
+            grid-template-columns: repeat(3, minmax(250px, 380px));
+        }
+    }
+}
+
+@media screen and (max-width: 920px){
+    .news {
+        .news__header {
+            height: 30vh;
+            .news__header-title {
+                margin-bottom: 20px;
+                font-size: 22px;
+            }
+            .news__search {
+                max-width: 500px;
+                margin-bottom: 60px;
+                .news__search-input {
+                    height: 12px;
+                    width: 500px;
+                    font-size: 12px;
+                }
+                .news__search-input::placeholder {
+                    font-size: 12px;
+                }
+                .news__search-btn {
+                    padding: 4px;
+                    width: 45px;
+                    font-size: 11px;
+                }
+            }
+        }  
+        .container {
+            min-width: 768px;
+            .news__list {
+                padding: 30px 15px;
+                grid-template-columns: repeat(3, minmax(200px, 276px));
+                column-gap: 31px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .news {
+        .news__header {
+            height: 30vh;
+            .news__header-title {
+                margin-bottom: 40px;
+                font-size: 38px;
+            }
+            .news__search {
+                width: 615px;
+                margin-bottom: 60px;
+                .news__search-input {
+                    height: 12px;
+                    width: 500px;
+                }
+                .news__search-btn {
+                    padding: 6px;
+                    width: 90px;
+                }
+            }
+        }  
+        .container {
+            min-width: 520px;
+            .news__list {
+                padding: 30px 15px;
+                grid-template-columns: repeat(2, minmax(230px, 354px));
+                column-gap: 30px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 520px){
+    .news {
+        .news__header {
+            height: 30vh;
+            .news__header-title {
+                margin-bottom: 40px;
+                font-size: 38px;
+            }
+            .news__search {
+                flex-direction: column;
+                justify-content: space-between;
+                height: 80px;
+                align-items: center;
+                width: 280px;
+                margin-bottom: 40px;
+                .news__search-input {
+                    height: 12px;
+                    width: 280px;
+                }
+                .news__search-btn {
+                    padding: 6px;
+                    width: 120px;
+                }
+            }
+        }  
+        .container {
+            min-width: 320px;
+            .news__list {
+                padding: 30px 15px;
+                grid-template-columns: repeat(1, minmax(290px, 1fr));
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .news {
+        .news__header {
+            height: 30vh;
+            .news__header-title {
+                margin-bottom: 40px;
+                font-size: 38px;
+            }
+            .news__search {
+                flex-direction: column;
+                justify-content: space-between;
+                height: 80px;
+                align-items: center;
+                width: 280px;
+                margin-bottom: 60px;
+                .news__search-input {
+                    height: 12px;
+                    width: 220px;
+                }
+                .news__search-btn {
+                    padding: 6px;
+                    width: 120px;
+                }
+            }
+        }  
+        .container {
+            min-width: 100%;
+            .news__list {
+                padding: 30px 2px;
+                grid-template-columns: repeat(1, minmax(100%, 1fr));
+            }
+        }
+    }
+
+}
