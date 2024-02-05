@@ -5,9 +5,6 @@ window.addEventListener('DOMContentLoaded', async () => {
     let searchBtn = document.querySelector('.news__search-btn')
     let listNews = document.querySelector('.news__list')
 
-    
-
-
     if(localStorage.getItem('valueInput')){
         getData(JSON.parse(localStorage.getItem('valueInput')))
     }

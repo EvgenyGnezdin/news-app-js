@@ -1,8 +1,8 @@
-@import url('../fonts/fonts.scss');
 @import url('../scss/block/_header.scss');
 @import url('../scss/block/_list.scss');
-@import url('../scss/block/_spinner.scss');
 @import url('../scss/block/_media.scss');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 
 body, ul, p, li, h3{
   font-family: 'Roboto' sans-serif;
